@@ -12,3 +12,6 @@ class Asset:
 
 	def average_risk(self):
 		return Math.std(self.returns)
+
+	def returns_from_csv(self, csv_file):
+                pass
